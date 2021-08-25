@@ -110,6 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -156,6 +157,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   color: white;
+  
 }
 
 abbr[title],
@@ -7369,6 +7371,7 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
   color: white;
+  
 }
 
 .mb-auto {
@@ -7629,6 +7632,7 @@ textarea.form-control-lg {
 
 .fw-normal {
   font-weight: 500 !important;
+  
 }
 
 .fw-bold {
@@ -7764,6 +7768,8 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: white !important;
+  font-size: 100%;
+  text-align: center;
 }
 
 .text-black-50 {
